@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/greet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ReCyCly"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" android:gravity="center" android:paddingTop="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp"
+        android:src="@mipmap/ic_loadingscreen" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/langselection"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center" android:paddingTop="25sp"/>
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:entries="@array/languages"
+        android:gravity="center"
+        android:paddingTop="25sp" />
+
+</LinearLayout>
